@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart' show Widget, BuildContext;
 import 'package:chat_app/screens/screens.dart';
 
-const String initialRoute = "login";
+const String initialRoute = "chat";
 
 final Map<String, Widget Function(BuildContext)> appRoutes = {
   'users': (_) => const UsersScreen(),
